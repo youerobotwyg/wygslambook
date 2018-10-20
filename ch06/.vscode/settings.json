@@ -1,0 +1,11 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/usr/local/lib/python3.5/dist-packages",
+        "/home/wyg/catkin_ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ],
+    "files.associations": {
+        "chrono": "cpp",
+        "algorithm": "cpp"
+    }
+}
