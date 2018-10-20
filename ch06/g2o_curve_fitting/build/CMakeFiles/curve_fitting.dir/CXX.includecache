@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wyg/Desktop/test/SLAM/ch06/g2o_curve_fitting/main.cpp
+/home/wyg/Desktop/test/SLAM/wygslambook/ch06/g2o_curve_fitting/main.cpp
 iostream
 -
 g2o/core/base_vertex.h

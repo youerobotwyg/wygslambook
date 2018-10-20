@@ -14,4 +14,4 @@ include_directories(${OpenCV_DIRS})
 
 add_executable(curve_fitting main.cpp)
 
-target_link_libraries(curve_fitting ${OpenCV_LIBS} g2O_core g2O_stuff)
+target_link_libraries(curve_fitting ${OpenCV_LIBS} g2o_core g2o_stuff)
