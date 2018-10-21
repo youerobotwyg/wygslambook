@@ -124,17 +124,17 @@ feature_extraction/fast:
 .PHONY : feature_extraction/fast
 
 #=============================================================================
-# Target rules for targets named pose_extimation2d2d
+# Target rules for targets named triangulation
 
 # Build rule for target.
-pose_extimation2d2d: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pose_extimation2d2d
-.PHONY : pose_extimation2d2d
+triangulation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 triangulation
+.PHONY : triangulation
 
 # fast build rule for target.
-pose_extimation2d2d/fast:
-	$(MAKE) -f CMakeFiles/pose_extimation2d2d.dir/build.make CMakeFiles/pose_extimation2d2d.dir/build
-.PHONY : pose_extimation2d2d/fast
+triangulation/fast:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/build
+.PHONY : triangulation/fast
 
 feature_extraction.o: feature_extraction.cpp.o
 
@@ -163,32 +163,32 @@ feature_extraction.cpp.s:
 	$(MAKE) -f CMakeFiles/feature_extraction.dir/build.make CMakeFiles/feature_extraction.dir/feature_extraction.cpp.s
 .PHONY : feature_extraction.cpp.s
 
-pose_extimation2d2d.o: pose_extimation2d2d.cpp.o
+triangulation.o: triangulation.cpp.o
 
-.PHONY : pose_extimation2d2d.o
+.PHONY : triangulation.o
 
 # target to build an object file
-pose_extimation2d2d.cpp.o:
-	$(MAKE) -f CMakeFiles/pose_extimation2d2d.dir/build.make CMakeFiles/pose_extimation2d2d.dir/pose_extimation2d2d.cpp.o
-.PHONY : pose_extimation2d2d.cpp.o
+triangulation.cpp.o:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/triangulation.cpp.o
+.PHONY : triangulation.cpp.o
 
-pose_extimation2d2d.i: pose_extimation2d2d.cpp.i
+triangulation.i: triangulation.cpp.i
 
-.PHONY : pose_extimation2d2d.i
+.PHONY : triangulation.i
 
 # target to preprocess a source file
-pose_extimation2d2d.cpp.i:
-	$(MAKE) -f CMakeFiles/pose_extimation2d2d.dir/build.make CMakeFiles/pose_extimation2d2d.dir/pose_extimation2d2d.cpp.i
-.PHONY : pose_extimation2d2d.cpp.i
+triangulation.cpp.i:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/triangulation.cpp.i
+.PHONY : triangulation.cpp.i
 
-pose_extimation2d2d.s: pose_extimation2d2d.cpp.s
+triangulation.s: triangulation.cpp.s
 
-.PHONY : pose_extimation2d2d.s
+.PHONY : triangulation.s
 
 # target to generate assembly for a file
-pose_extimation2d2d.cpp.s:
-	$(MAKE) -f CMakeFiles/pose_extimation2d2d.dir/build.make CMakeFiles/pose_extimation2d2d.dir/pose_extimation2d2d.cpp.s
-.PHONY : pose_extimation2d2d.cpp.s
+triangulation.cpp.s:
+	$(MAKE) -f CMakeFiles/triangulation.dir/build.make CMakeFiles/triangulation.dir/triangulation.cpp.s
+.PHONY : triangulation.cpp.s
 
 # Help Target
 help:
@@ -197,15 +197,15 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... feature_extraction"
-	@echo "... pose_extimation2d2d"
+	@echo "... edit_cache"
+	@echo "... triangulation"
 	@echo "... feature_extraction.o"
 	@echo "... feature_extraction.i"
 	@echo "... feature_extraction.s"
-	@echo "... pose_extimation2d2d.o"
-	@echo "... pose_extimation2d2d.i"
-	@echo "... pose_extimation2d2d.s"
+	@echo "... triangulation.o"
+	@echo "... triangulation.i"
+	@echo "... triangulation.s"
 .PHONY : help
 
 
