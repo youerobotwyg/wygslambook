@@ -13,3 +13,6 @@ include_directories(${OpenCV_INCLUDE_DIRS} "/usr/include/eigen3")
 add_executable(feature_extraction feature_extraction.cpp)
 target_link_libraries(feature_extraction ${OpenCV_LIBS})
 
+add_executable(triangulation triangulation.cpp)
+target_link_libraries(triangulation ${OpenCV_LIBS})
+
