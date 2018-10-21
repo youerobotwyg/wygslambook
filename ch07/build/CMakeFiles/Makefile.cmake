@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.11.0-rc4/CMakeCCompiler.cmake"
   "CMakeFiles/3.11.0-rc4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.11.0-rc4/CMakeSystem.cmake"
+  "../cmake_modules/FindCSparse.cmake"
+  "../cmake_modules/FindG2O.cmake"
   "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig-version.cmake"
   "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig.cmake"
   "/opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules-release.cmake"
@@ -49,6 +51,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/pose_extimation2d2d.dir/DependInfo.cmake"
   "CMakeFiles/feature_extraction.dir/DependInfo.cmake"
+  "CMakeFiles/pose_estimation_3d3d.dir/DependInfo.cmake"
   "CMakeFiles/triangulation.dir/DependInfo.cmake"
+  "CMakeFiles/pose_estimation_3d2d.dir/DependInfo.cmake"
   )
