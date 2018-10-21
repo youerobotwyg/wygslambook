@@ -15,3 +15,6 @@ target_link_libraries(feature_extraction ${OpenCV_LIBS})
 
 add_executable(pose_extimation2d2d pose_extimation2d2d.cpp)
 target_link_libraries(pose_extimation2d2d ${OpenCV_LIBS})
+
+add_executable(triangulation triangulation.cpp)
+target_link_libraries(triangulation ${OpenCV_LIBS})
